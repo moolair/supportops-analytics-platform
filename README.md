@@ -58,19 +58,30 @@ dictionary. -->
 <!-- TODO: list the views: volume, SLA compliance, MTTR, backlog aging, reopen
 rate, first-contact resolution, workload by group, data-quality summary. -->
 
-## Quickstart
+## Local Setup
 
-<!-- TODO: make copy-pasteable once implemented.
+**Prerequisites:** Docker (with Compose) and Make.
+
 ```bash
+# 1. Create your local env file (make up does this automatically too)
 cp .env.example .env
-make up        # start Postgres + Metabase
-make migrate   # create schema + views
-make import    # load sample CSV
-make validate  # quarantine bad rows
-make promote   # populate clean tickets
-make report    # data-quality summary
+
+# 2. Start PostgreSQL
+make up
+
+# 3. Open a psql shell to confirm the database is up
+make db-shell
+
+# 4. Stop the database when done (data is preserved in the pgdata volume)
+make down
 ```
-Open Metabase at http://localhost:3000 -->
+
+Postgres listens on `localhost:5432` by default (configurable via `POSTGRES_PORT`
+in `.env`). Run `make help` to list all available targets.
+
+> Later steps (`make migrate`, `make import`, `make validate`, `make promote`,
+> `make report`) and the Metabase dashboard are added in subsequent issues —
+> see [`docs/github-issues.md`](docs/github-issues.md).
 
 ## Dashboard
 

@@ -1,21 +1,34 @@
 # SupportOps Analytics Platform — task runner
 #
-# PLACEHOLDER targets — real commands are wired up across issues #1–#9.
-# Each target currently just announces intent so the workflow is documented.
+# Infra targets (up/down/db-shell) are live as of issue #1.
+# Pipeline targets remain placeholders until their issues land.
 
-.PHONY: help setup up down migrate import validate promote report test
+# Load .env if present so targets can use the variables.
+ifneq (,$(wildcard .env))
+include .env
+export
+endif
+
+.PHONY: help setup up down logs db-shell migrate import validate promote report test
 
 help: ## Show available targets
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-10s %s\n", $$1, $$2}'
+	@grep -hE '^[a-zA-Z_-]+:.*?## .*$$' $(firstword $(MAKEFILE_LIST)) | awk 'BEGIN {FS = ":.*?## "}; {printf "  %-12s %s\n", $$1, $$2}'
 
-setup: ## Install/prepare local dependencies (issue #1)
-	@echo "TODO: setup — see issue #1"
+setup: ## Create .env from .env.example if missing
+	@[ -f .env ] || (cp .env.example .env && echo "Created .env from .env.example")
 
-up: ## Start Postgres + Metabase via Docker Compose (issue #1)
-	@echo "TODO: docker compose up — see issue #1"
+up: setup ## Start PostgreSQL (Docker Compose)
+	docker compose up -d
+	@echo "PostgreSQL is starting on localhost:$(POSTGRES_PORT)"
 
-down: ## Stop containers (issue #1)
-	@echo "TODO: docker compose down — see issue #1"
+down: ## Stop containers (keeps the data volume)
+	docker compose down
+
+logs: ## Tail PostgreSQL logs
+	docker compose logs -f postgres
+
+db-shell: ## Open a psql shell in the postgres container
+	docker compose exec postgres psql -U $(POSTGRES_USER) -d $(POSTGRES_DB)
 
 migrate: ## Apply SQL migrations (issue #2)
 	@echo "TODO: run migrations — see issue #2"
