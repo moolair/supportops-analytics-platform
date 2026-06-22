@@ -1,0 +1,16 @@
+# SupportOps Analytics Platform — local development stack
+#
+# PLACEHOLDER — to be implemented in issue #1 (Set up project skeleton and Docker Compose).
+# Will define two services:
+#   - postgres  : PostgreSQL 16, with a named volume and healthcheck
+#   - metabase  : Metabase BI, connected to the postgres service
+#
+# Do not add business logic here yet. See docs/github-issues.md (#1).
+
+# services:
+#   postgres:
+#     image: postgres:16
+#     ...
+#   metabase:
+#     image: metabase/metabase:latest
+#     ...

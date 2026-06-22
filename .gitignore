@@ -1,0 +1,25 @@
+# Environment / secrets
+.env
+*.local
+
+# Go build output
+/bin/
+*.exe
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local data artifacts (keep committed samples under data/samples/)
+data/tmp/
+*.dump
+
+# Docker volumes (if mapped locally)
+/.pgdata/
