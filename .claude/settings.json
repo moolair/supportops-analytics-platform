@@ -1,0 +1,36 @@
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit",
+      "Write",
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(go test ./...)",
+      "Bash(go fmt ./...)",
+      "Bash(gofmt -w *)",
+      "Bash(make *)",
+      "Bash(docker compose up -d)",
+      "Bash(docker compose down)",
+      "Bash(docker compose ps)"
+    ],
+    "ask": [
+      "Bash(git push*)",
+      "Bash(gh pr create*)",
+      "Bash(docker compose down -v*)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)",
+      "Bash(sudo *)",
+      "Bash(curl * | sh*)",
+      "Bash(wget * | sh*)",
+      "Bash(*.env*)"
+    ]
+  }
+}
