@@ -1,0 +1,101 @@
+ticket_id,opened_at,resolved_at,closed_at,priority,status,category,subcategory,assignment_group,assigned_to,channel,requester,short_description,sla_target_hours,reopen_count
+INC0000001,2024-01-03T08:15:00Z,2024-01-03T10:30:00Z,2024-01-03T11:00:00Z,P2,Closed,Hardware,Laptop,Desktop Support,James Okafor,Email,Sarah Chen,Laptop fails to boot after Windows update,8,0
+INC0000002,2024-01-04T09:00:00Z,2024-01-04T17:30:00Z,2024-01-04T18:00:00Z,P3,Closed,Software,Installation,IT Helpdesk,Lisa Nguyen,Self-Service,Marcus Tran,Cannot install approved software - permission denied,24,0
+INC0000003,2024-01-05T14:30:00Z,2024-01-06T09:00:00Z,2024-01-06T10:00:00Z,P3,Closed,Network,Connectivity,Network Team,David Kim,Phone,Priya Patel,No network access after office move to 3rd floor,24,0
+INC0000004,2024-01-07T11:00:00Z,2024-01-07T12:30:00Z,2024-01-07T13:00:00Z,P2,Closed,Access Management,Account Lockout,Security Team,Emma Svensson,Email,Tom Bradley,Account locked after multiple failed login attempts,8,0
+INC0000005,2024-01-08T08:45:00Z,2024-01-08T16:00:00Z,2024-01-08T16:30:00Z,P3,Closed,Email,Delivery,IT Helpdesk,Carlos Rivera,Email,Lisa Nguyen,Not receiving emails from external senders,24,1
+INC0000006,2024-01-09T10:00:00Z,2024-01-09T10:45:00Z,2024-01-09T11:00:00Z,P1,Closed,Network,Connectivity,Network Team,David Kim,Phone,Wei Zhang,Internet outage affecting entire marketing floor,4,0
+INC0000007,2024-01-10T13:00:00Z,2024-01-11T09:30:00Z,2024-01-11T10:00:00Z,P3,Closed,Hardware,Monitor,Desktop Support,James Okafor,Email,Amara Diallo,Second monitor not detected after docking station update,24,0
+INC0000008,2024-01-11T09:15:00Z,2024-01-11T15:00:00Z,2024-01-11T15:30:00Z,P2,Closed,Software,License,Application Support,Yuki Tanaka,Self-Service,Daniel Fischer,License expired for design software - renewal needed,8,0
+INC0000009,2024-01-12T16:00:00Z,2024-01-15T10:00:00Z,2024-01-15T11:00:00Z,P4,Closed,Hardware,Printer,Desktop Support,Robert Osei,Email,Sofia Martins,Shared printer on 2nd floor not printing in colour,48,0
+INC0000010,2024-01-15T08:30:00Z,2024-01-15T11:00:00Z,2024-01-15T11:30:00Z,P2,Closed,Access Management,New User,Security Team,Emma Svensson,Email,John Okafor,New employee requires access to finance system,8,0
+INC0000011,2024-01-16T10:30:00Z,2024-01-16T14:00:00Z,2024-01-16T14:30:00Z,P3,Closed,Software,VPN,IT Helpdesk,Lisa Nguyen,Self-Service,Sarah Chen,VPN client crashes immediately after launch on macOS,24,1
+INC0000012,2024-01-17T09:00:00Z,2024-01-17T09:30:00Z,2024-01-17T10:00:00Z,P2,Closed,Access Management,Password Reset,Security Team,Emma Svensson,Phone,Marcus Tran,Forgotten password - cannot access email or systems,8,0
+INC0000013,2024-01-18T14:00:00Z,2024-01-19T16:00:00Z,2024-01-20T09:00:00Z,P4,Closed,Hardware,Keyboard/Mouse,Desktop Support,James Okafor,Email,Priya Patel,Wireless keyboard battery draining unusually fast,48,0
+INC0000014,2024-01-19T11:00:00Z,2024-01-19T13:30:00Z,2024-01-19T14:00:00Z,P2,Closed,Network,WiFi,Network Team,David Kim,Self-Service,Tom Bradley,WiFi drops repeatedly in conference room B,8,0
+INC0000015,2024-01-22T08:00:00Z,2024-01-22T08:45:00Z,2024-01-22T09:00:00Z,P1,Closed,Software,Antivirus,Application Support,Yuki Tanaka,Phone,Lisa Nguyen,Antivirus flagging business-critical application as threat,4,0
+INC0000016,2024-01-22T10:00:00Z,2024-01-22T17:00:00Z,2024-01-23T09:00:00Z,P3,Closed,Software,Application,Application Support,Yuki Tanaka,Email,Wei Zhang,CRM application freezes when generating monthly report,24,0
+INC0000017,2024-01-23T09:30:00Z,2024-01-24T14:00:00Z,2024-01-24T15:00:00Z,P3,Closed,Network,DNS,Network Team,David Kim,Email,Amara Diallo,Intermittent DNS resolution failures on workstations,24,0
+INC0000018,2024-01-24T11:00:00Z,2024-01-24T12:30:00Z,2024-01-24T13:00:00Z,P2,Closed,Email,Configuration,IT Helpdesk,Carlos Rivera,Email,Daniel Fischer,Email signature not displaying correctly in Outlook,8,0
+INC0000019,2024-01-25T14:00:00Z,2024-01-26T10:00:00Z,2024-01-26T11:00:00Z,P3,Closed,Access Management,Permissions,Security Team,Emma Svensson,Self-Service,Sofia Martins,Requesting read access to shared project drive folder,24,0
+INC0000020,2024-01-26T09:00:00Z,2024-01-26T10:00:00Z,2024-01-26T10:30:00Z,P2,Closed,Hardware,Desktop,Desktop Support,James Okafor,Phone,John Okafor,Desktop PC making loud fan noise - suspected overheating,8,0
+INC0000021,2024-01-29T08:30:00Z,2024-01-29T11:00:00Z,2024-01-29T11:30:00Z,P2,Closed,Software,Office Suite,Application Support,Yuki Tanaka,Email,Sarah Chen,Excel crashing when opening large pivot table files,8,0
+INC0000022,2024-01-30T10:00:00Z,2024-01-31T14:00:00Z,2024-01-31T15:00:00Z,P3,Closed,Network,Connectivity,Network Team,David Kim,Phone,Marcus Tran,Wired network connection unstable - intermittent drops,24,0
+INC0000023,2024-01-31T09:00:00Z,2024-01-31T16:30:00Z,2024-02-01T09:00:00Z,P3,Closed,Email,Distribution List,IT Helpdesk,Carlos Rivera,Email,Priya Patel,Distribution list not receiving emails from external contacts,24,1
+INC0000024,2024-02-01T08:00:00Z,2024-02-01T09:30:00Z,2024-02-01T10:00:00Z,P2,Closed,Access Management,MFA,Security Team,Emma Svensson,Phone,Tom Bradley,MFA authenticator app not generating codes after phone replacement,8,0
+INC0000025,2024-02-02T14:30:00Z,2024-02-03T09:00:00Z,2024-02-03T10:00:00Z,P3,Closed,Hardware,Peripheral,Desktop Support,Robert Osei,Email,Lisa Nguyen,USB hub not recognised after Windows update,24,0
+INC0000026,2024-02-05T10:00:00Z,2024-02-05T14:00:00Z,2024-02-05T14:30:00Z,P3,Closed,Software,Installation,IT Helpdesk,Lisa Nguyen,Self-Service,Wei Zhang,Software deployment failed silently on 3 workstations,24,0
+INC0000027,2024-02-06T09:00:00Z,2024-02-06T11:30:00Z,2024-02-06T12:00:00Z,P2,Closed,Email,Quota,IT Helpdesk,Carlos Rivera,Email,Amara Diallo,Mailbox full - unable to send or receive messages,8,0
+INC0000028,2024-02-07T08:45:00Z,2024-02-08T16:00:00Z,2024-02-09T09:00:00Z,P4,Closed,Hardware,Monitor,Desktop Support,James Okafor,Email,Daniel Fischer,Monitor flickering at random intervals throughout the day,48,0
+INC0000029,2024-02-08T11:00:00Z,2024-02-08T12:00:00Z,2024-02-08T12:30:00Z,P2,Closed,Access Management,Account Lockout,Security Team,Emma Svensson,Phone,Sofia Martins,User locked out - account disabled by security policy,8,0
+INC0000030,2024-02-09T14:00:00Z,2024-02-12T10:00:00Z,2024-02-12T11:00:00Z,P4,Closed,Software,VPN,IT Helpdesk,Lisa Nguyen,Email,John Okafor,VPN connection drops every 30 minutes when working remotely,48,2
+INC0000031,2024-02-12T09:00:00Z,2024-02-12T11:00:00Z,2024-02-12T11:30:00Z,P2,Closed,Network,Firewall,Network Team,David Kim,Email,Sarah Chen,Firewall blocking access to approved cloud storage service,8,0
+INC0000032,2024-02-13T10:30:00Z,2024-02-13T16:00:00Z,2024-02-13T16:30:00Z,P3,Closed,Hardware,Laptop,Desktop Support,James Okafor,Phone,Marcus Tran,Laptop battery not charging when plugged in,24,0
+INC0000033,2024-02-14T08:00:00Z,2024-02-14T09:00:00Z,2024-02-14T09:30:00Z,P2,Closed,Access Management,Password Reset,Security Team,Emma Svensson,Self-Service,Priya Patel,Password expired - unable to log in to any system,8,0
+INC0000034,2024-02-15T11:00:00Z,2024-02-16T09:30:00Z,2024-02-16T10:00:00Z,P3,Closed,Email,Spam Filter,IT Helpdesk,Carlos Rivera,Email,Tom Bradley,Legitimate vendor emails being quarantined as spam,24,0
+INC0000035,2024-02-16T14:00:00Z,2024-02-19T10:00:00Z,2024-02-19T11:00:00Z,P4,Closed,Software,Application,Application Support,Yuki Tanaka,Email,Lisa Nguyen,Legacy reporting tool crashes on Windows 11 - compatibility issue,48,0
+INC0000036,2024-02-19T09:00:00Z,2024-02-19T10:30:00Z,2024-02-19T11:00:00Z,P2,Closed,Network,Switch,Network Team,David Kim,Phone,Wei Zhang,Network switch port failure causing intermittent outage on floor 4,8,0
+INC0000037,2024-02-20T10:00:00Z,2024-02-20T16:00:00Z,2024-02-20T16:30:00Z,P3,Closed,Hardware,Desktop,Desktop Support,Robert Osei,Email,Amara Diallo,Desktop cannot recognise second hard drive after restart,24,0
+INC0000038,2024-02-21T08:30:00Z,2024-02-21T12:00:00Z,2024-02-21T12:30:00Z,P2,Closed,Software,License,Application Support,Yuki Tanaka,Self-Service,Daniel Fischer,Adobe license showing as invalid after company-wide renewal,8,0
+INC0000039,2024-02-22T14:00:00Z,2024-02-23T14:00:00Z,2024-02-23T15:00:00Z,P3,Closed,Access Management,Permissions,Security Team,Emma Svensson,Email,Sofia Martins,Cannot access shared drive after team reorganisation,24,0
+INC0000040,2024-02-23T09:00:00Z,2024-02-23T10:30:00Z,2024-02-23T11:00:00Z,P2,Closed,Email,Delivery,IT Helpdesk,Carlos Rivera,Phone,John Okafor,Sent emails not reaching recipients - delivery failures,8,0
+INC0000041,2024-02-26T08:00:00Z,2024-02-26T09:30:00Z,2024-02-26T10:00:00Z,P2,Closed,Network,WiFi,Network Team,David Kim,Email,Sarah Chen,New meeting room WiFi extender not broadcasting SSID,8,0
+INC0000042,2024-02-27T10:00:00Z,2024-02-28T09:00:00Z,2024-02-28T10:00:00Z,P3,Closed,Hardware,Printer,Desktop Support,James Okafor,Email,Marcus Tran,Office printer showing offline despite being powered on,24,0
+INC0000043,2024-02-28T11:00:00Z,2024-02-29T10:00:00Z,2024-02-29T11:00:00Z,P3,Closed,Software,Office Suite,Application Support,Yuki Tanaka,Self-Service,Priya Patel,Outlook calendar not syncing with mobile device,24,0
+INC0000044,2024-02-29T09:00:00Z,2024-02-29T11:30:00Z,2024-02-29T12:00:00Z,P2,Closed,Access Management,New User,Security Team,Emma Svensson,Email,Tom Bradley,New contractor requires temporary VPN and system access,8,0
+INC0000045,2024-03-01T14:30:00Z,2024-03-04T09:00:00Z,2024-03-04T10:00:00Z,P4,Closed,Network,Connectivity,Network Team,David Kim,Email,Lisa Nguyen,Intermittent packet loss affecting video calls in open plan area,48,1
+INC0000046,2024-03-04T08:00:00Z,2024-03-04T09:00:00Z,2024-03-04T09:30:00Z,P1,Closed,Access Management,Account Lockout,Security Team,Emma Svensson,Phone,Wei Zhang,Director account locked - cannot access systems before board meeting,4,0
+INC0000047,2024-03-05T10:00:00Z,2024-03-06T14:00:00Z,2024-03-06T15:00:00Z,P3,Closed,Software,Application,Application Support,Yuki Tanaka,Email,Amara Diallo,Project management tool not loading dashboard for specific user,24,0
+INC0000048,2024-03-06T09:30:00Z,2024-03-06T16:00:00Z,2024-03-06T16:30:00Z,P3,Closed,Email,Configuration,IT Helpdesk,Carlos Rivera,Self-Service,Daniel Fischer,Shared mailbox permissions not applying correctly after setup,24,0
+INC0000049,2024-03-07T08:00:00Z,2024-03-07T10:30:00Z,2024-03-07T11:00:00Z,P2,Closed,Hardware,Laptop,Desktop Support,Robert Osei,Phone,Sofia Martins,Laptop screen cracked - requesting replacement unit,8,0
+INC0000050,2024-03-08T11:00:00Z,2024-03-11T09:00:00Z,2024-03-11T10:00:00Z,P4,Closed,Software,VPN,IT Helpdesk,Lisa Nguyen,Email,John Okafor,VPN split tunnel configuration needed for performance,48,0
+INC0000051,2024-03-11T09:00:00Z,2024-03-11T14:00:00Z,,P3,Resolved,Software,Application,Application Support,Yuki Tanaka,Email,Sarah Chen,Accounting software error when generating quarterly report,24,0
+INC0000052,2024-03-12T10:00:00Z,2024-03-12T16:00:00Z,,P3,Resolved,Hardware,Monitor,Desktop Support,James Okafor,Email,Marcus Tran,External monitor resolution limited to 1080p via dock,24,0
+INC0000053,2024-03-13T08:30:00Z,2024-03-13T12:00:00Z,,P2,Resolved,Network,Connectivity,Network Team,David Kim,Phone,Priya Patel,Network printer unreachable from new VLAN segment,8,0
+INC0000054,2024-03-14T14:00:00Z,2024-03-15T09:30:00Z,,P3,Resolved,Access Management,Permissions,Security Team,Emma Svensson,Email,Tom Bradley,Read-only access needed to finance reports for audit,24,0
+INC0000055,2024-03-15T09:00:00Z,2024-03-15T11:30:00Z,,P2,Resolved,Email,Delivery,IT Helpdesk,Carlos Rivera,Email,Lisa Nguyen,Auto-reply not triggering for out-of-office setting,8,0
+INC0000056,2024-03-18T08:00:00Z,2024-03-18T10:00:00Z,,P2,Resolved,Access Management,Password Reset,Security Team,Emma Svensson,Self-Service,Wei Zhang,Temporary password not accepted on first login attempt,8,0
+INC0000057,2024-03-19T10:30:00Z,2024-03-20T14:00:00Z,,P4,Resolved,Hardware,Desktop,Desktop Support,Robert Osei,Email,Amara Diallo,Desktop slow after recent Windows cumulative update,48,0
+INC0000058,2024-03-19T11:00:00Z,2024-03-19T15:00:00Z,,P3,Resolved,Software,Antivirus,Application Support,Yuki Tanaka,Email,Daniel Fischer,Security scan causing high CPU usage during business hours,24,0
+INC0000059,2024-03-20T09:00:00Z,2024-03-21T10:00:00Z,,P3,Resolved,Email,Distribution List,IT Helpdesk,Carlos Rivera,Phone,Sofia Martins,Distribution list bouncing emails from internal senders,24,1
+INC0000060,2024-03-21T14:00:00Z,2024-03-22T09:00:00Z,,P3,Resolved,Network,WiFi,Network Team,David Kim,Email,John Okafor,WiFi speed significantly reduced on executive floor,24,0
+INC0000061,2024-03-22T08:00:00Z,,,P2,In Progress,Hardware,Laptop,Desktop Support,James Okafor,Email,Sarah Chen,Laptop keyboard intermittently not registering keystrokes,8,0
+INC0000062,2024-03-22T10:30:00Z,,,P3,In Progress,Software,Installation,IT Helpdesk,Lisa Nguyen,Self-Service,Marcus Tran,Software install blocked by AppLocker policy - pending exception approval,24,0
+INC0000063,2024-03-22T14:00:00Z,,,P3,In Progress,Network,Connectivity,Network Team,David Kim,Phone,Priya Patel,Sporadic network drops on 5th floor - investigation ongoing,24,0
+INC0000064,2024-03-25T09:00:00Z,,,P1,In Progress,Access Management,Permissions,Security Team,Emma Svensson,Email,Tom Bradley,Senior director missing access to critical system post-migration,4,0
+INC0000065,2024-03-25T11:00:00Z,,,P2,In Progress,Email,Configuration,IT Helpdesk,Carlos Rivera,Email,Lisa Nguyen,Shared calendar permissions reverting after each sync,8,0
+INC0000066,2024-03-25T14:00:00Z,,,P4,In Progress,Hardware,Peripheral,Desktop Support,Robert Osei,Email,Wei Zhang,Wireless mouse cursor jumping - interference suspected,48,0
+INC0000067,2024-03-26T08:30:00Z,,,P3,In Progress,Software,Application,Application Support,Yuki Tanaka,Email,Amara Diallo,ERP module returning 500 errors for specific user role,24,0
+INC0000068,2024-03-26T10:00:00Z,,,P2,In Progress,Network,Firewall,Network Team,David Kim,Phone,Daniel Fischer,New SaaS tool URLs not whitelisted on proxy - service blocked,8,0
+INC0000069,2024-03-26T14:30:00Z,,,P3,In Progress,Access Management,MFA,Security Team,Emma Svensson,Self-Service,Sofia Martins,MFA prompts appearing every hour instead of once per session,24,0
+INC0000070,2024-03-27T09:00:00Z,,,P4,In Progress,Email,Quota,IT Helpdesk,Carlos Rivera,Email,John Okafor,Mailbox nearing quota limit - requesting archiving assistance,48,0
+INC0000071,2024-03-27T10:00:00Z,,,P4,Open,Hardware,Printer,Desktop Support,James Okafor,Email,Sarah Chen,Printer on floor 1 out of toner - replacement requested,48,0
+INC0000072,2024-03-27T14:00:00Z,,,P3,Open,Software,VPN,IT Helpdesk,Lisa Nguyen,Self-Service,Marcus Tran,VPN profile needs updating after network infrastructure change,24,0
+INC0000073,2024-03-28T08:30:00Z,,,P2,Open,Network,DNS,Network Team,David Kim,Phone,Priya Patel,DNS lookup failures for internal hostnames since yesterday,8,0
+INC0000074,2024-03-28T10:00:00Z,,,P3,Open,Access Management,New User,Security Team,Emma Svensson,Email,Tom Bradley,New hire starting next week - accounts and access needed,24,0
+INC0000075,2024-03-28T14:00:00Z,,,P4,Open,Email,Spam Filter,IT Helpdesk,Carlos Rivera,Email,Lisa Nguyen,Spam filter rules need updating - too many false positives,48,0
+INC0000076,2024-03-28T15:00:00Z,,,P2,Open,Hardware,Laptop,Desktop Support,James Okafor,Phone,Wei Zhang,Laptop docking station not charging device,8,0
+INC0000077,2024-03-29T08:00:00Z,,,P3,Open,Software,Office Suite,Application Support,Yuki Tanaka,Email,Amara Diallo,Teams meeting recordings not saving to SharePoint,24,0
+INC0000078,2024-03-29T10:30:00Z,,,P4,Open,Network,WiFi,Network Team,David Kim,Self-Service,Daniel Fischer,WiFi password changed without notification to remote team,48,0
+INC0000079,2024-03-29T14:00:00Z,,,P3,Open,Access Management,Permissions,Security Team,Emma Svensson,Email,Sofia Martins,Contractor access needs revoking - contract ended last week,24,0
+INC0000080,2024-03-29T15:30:00Z,,,P4,Open,Email,Delivery,IT Helpdesk,Carlos Rivera,Phone,John Okafor,Bulk email campaign delayed due to sending limits,48,0
+INC0000081,2024-01-10T09:00:00Z,2024-01-15T14:00:00Z,2024-01-15T15:00:00Z,P3,Closed,Software,Application,Application Support,Yuki Tanaka,Email,Sarah Chen,Application login loop persisting after cache clear,24,2
+INC0000082,2024-01-18T08:30:00Z,2024-01-25T16:00:00Z,2024-01-26T09:00:00Z,P4,Closed,Hardware,Desktop,Desktop Support,Robert Osei,Email,Marcus Tran,Desktop randomly restarting - driver conflict unresolved twice,48,2
+INC0000083,2024-02-01T10:00:00Z,2024-02-08T14:00:00Z,2024-02-08T15:00:00Z,P3,Closed,Network,Connectivity,Network Team,David Kim,Phone,Priya Patel,Network port reconfigured incorrectly twice - now resolved,24,2
+INC0000084,2024-02-10T09:00:00Z,2024-02-14T10:00:00Z,2024-02-14T11:00:00Z,P2,Closed,Software,VPN,IT Helpdesk,Lisa Nguyen,Email,Tom Bradley,VPN client misconfigured and re-opened by user,8,1
+INC0000085,2024-02-15T14:00:00Z,2024-02-22T09:00:00Z,2024-02-22T10:00:00Z,P3,Closed,Access Management,Permissions,Security Team,Emma Svensson,Self-Service,Lisa Nguyen,Permissions reverted after AD group policy refresh,24,1
+INC0000086,2024-02-20T08:00:00Z,2024-03-05T16:00:00Z,2024-03-06T09:00:00Z,P4,Closed,Hardware,Printer,Desktop Support,James Okafor,Email,Wei Zhang,Network printer firmware update caused repeated offline status,48,3
+INC0000087,2024-03-01T09:30:00Z,2024-03-12T14:00:00Z,2024-03-12T15:00:00Z,P3,Closed,Email,Delivery,IT Helpdesk,Carlos Rivera,Email,Amara Diallo,Email delivery issue recurred after mail relay config change,24,1
+INC0000088,2024-03-05T10:00:00Z,2024-03-20T11:00:00Z,2024-03-20T12:00:00Z,P4,Closed,Software,Application,Application Support,Yuki Tanaka,Email,Daniel Fischer,Reporting module fix reverted during maintenance window,48,2
+INC0000089,2024-03-10T08:00:00Z,2024-03-22T14:00:00Z,2024-03-22T15:00:00Z,P3,Closed,Network,WiFi,Network Team,David Kim,Phone,Sofia Martins,WiFi channel congestion recurred after access point reboot,24,1
+INC0000090,2024-03-15T09:00:00Z,2024-03-27T16:00:00Z,2024-03-28T09:00:00Z,P4,Closed,Hardware,Laptop,Desktop Support,Robert Osei,Email,John Okafor,Laptop touchpad driver issue re-emerged after OS update,48,2
+,2024-03-20T10:00:00Z,2024-03-20T14:00:00Z,2024-03-20T14:30:00Z,P3,Closed,Software,Installation,IT Helpdesk,Lisa Nguyen,Email,Sarah Chen,Software installation request - ticket ID missing from form,24,0
+INC0000001,2024-03-21T09:00:00Z,2024-03-21T11:00:00Z,2024-03-21T11:30:00Z,P3,Closed,Hardware,Laptop,Desktop Support,James Okafor,Email,Marcus Tran,Duplicate of INC0000001 - ticket ID reused in error,24,0
+INC0000093,2024-03-15T14:00:00Z,2024-03-15T16:00:00Z,2024-03-15T16:30:00Z,URGENT,Closed,Network,Connectivity,Network Team,David Kim,Phone,Priya Patel,Network cable issue flagged as urgent by manager,8,0
+INC0000094,2024-03-18T09:00:00Z,,,P3,Pending Vendor,Software,Application,Application Support,Yuki Tanaka,Email,Tom Bradley,Awaiting vendor response for application bug fix,24,0
+INC0000095,2024-03-22T10:00:00Z,,,P4,Closed,Hardware,Peripheral,Desktop Support,James Okafor,Email,Lisa Nguyen,Headset pairing issue - closed without resolution timestamp,48,0
+INC0000096,2024-03-25T15:00:00Z,2024-03-25T09:00:00Z,2024-03-25T10:00:00Z,P2,Closed,Access Management,Password Reset,Security Team,Emma Svensson,Phone,Wei Zhang,Password reset - resolved_at recorded before ticket was opened,8,0
+INC0000097,2024-03-26T10:00:00Z,2024-03-26T14:00:00Z,2024-03-26T14:30:00Z,P3,Closed,Email,Configuration,IT Helpdesk,Carlos Rivera,Email,,Email signature update - requester name not captured in form,24,0
+INC0000098,2024-03-27T09:00:00Z,2024-03-27T13:00:00Z,2024-03-27T13:30:00Z,P3,Closed,Software,License,Application Support,Yuki Tanaka,Email,Amara Diallo,License renewal processed - SLA target entered as negative value,-4,0
+INC0000099,2024-03-27T14:00:00Z,2024-03-27T15:30:00Z,2024-03-27T16:00:00Z,P4,Closed,Cafeteria Services,Vending Machine,IT Helpdesk,Carlos Rivera,Email,Daniel Fischer,Vending machine payment terminal not connecting to network,48,0
+INC0000100,2024-03-28T09:00:00Z,2024-03-28T11:00:00Z,2024-03-28T11:30:00Z,P3,Closed,Hardware,Keyboard/Mouse,Desktop Support,Robert Osei,Phone,Sofia Martins,Keyboard replaced but reopen count recorded incorrectly in system,24,abc
